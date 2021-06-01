@@ -129,3 +129,12 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
+
+#Configuracion de email.
+
+EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
+EMAL_HOST="smtp.gmail.com"
+EMAILI_USE_TLS=True
+EMAIL_PORT=587
+EMAIL_HOST_USER="bravomartin178@gmail.com"
+EMAIL_HOST_PASSWORD="avenged sevenfold"
